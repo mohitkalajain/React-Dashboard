@@ -1,10 +1,8 @@
 import "./App.css";
-
+import TopBar from './components/TopBar/TopBar';
 function App() {
   return (
-    <div className="App">
-      <p>Admin Dashboard With Material Ui Design</p>
-    </div>
+    <TopBar></TopBar>
   );
 }
 
